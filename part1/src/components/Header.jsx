@@ -1,6 +1,6 @@
 
-export default function Header() {
-    const courseProp = 'Half Stack application development'
+export default function Header({courseProp}) {
+    console.log(courseProp)
     return (
         <>
             <h1>{courseProp}</h1>
